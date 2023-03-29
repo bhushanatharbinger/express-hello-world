@@ -1,33 +1,77 @@
 <!doctype html>
-<html lang=en>
-  <head>
-    <meta charset=utf-8>
-    <title>Cyclic: Hello World</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <link rel="icon" href="/favicon.ico" />
-  </head>
-  <body>
-    <div id="hello-wrapper">
-      <div id="particles-js"></div>
-      <div class="content position-absolute w-100 top-0 pt-5">
-        <div class="cta">
-          <div id="hello" class="typewriter pb-3">
-            Hello World!
-          </div>
-          <a class="btn btn-primary mb-5" href="//app.cyclic.sh/api/login">Sign in to Cyclic</a>
-        </div>
-        <div id="world">
-          <canvas id='rotatingGlobe' style='cursor: move;'></canvas>
-        </div>
-      </div>
-    </div>
-    <script type='text/javascript' src='//d3js.org/d3.v3.min.js'></script>
-    <script type='text/javascript' src='//d3js.org/topojson.v1.min.js'></script>
-    <script type='text/javascript' src='planetaryjs.min.js'></script>
-    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script type='text/javascript' src='particles.js'></script>
-    <script type='text/javascript' src='globe.js'></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Eg Colombia</title>
+  <base href="/">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EG Admin</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  
+  <!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script> -->
+  <!-- <script>
+	   var OneSignal = window.OneSignal || [];
+	   OneSignal.push(function() {
+
+			OneSignal.init({
+		   appId: "ac7070d7-d224-4725-aeec-acfe41048c70",
+		   autoRegister: true,
+		   notifyButton: {
+			 enable: true,
+		   },
+		 });
+
+		 OneSignal.getUserId(function(userId) {
+    console.log("OneSignal User ID:", userId);
+    // (Output) OneSignal User ID: 270a35cd-4dda-4b3f-b04e-41d7463a2316
+  });
+	   });
+	 </script> -->
+
+  <!------ Include Custom css ---------->
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <!-- <link rel="stylesheet" href="src/assets/css/steps.form.css"> -->
+  <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+</head>
+
+<body>
+  <app-root></app-root>
+  
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> 
+  <!-- <script src="node_modules/chart.js/src/chart.js"></script> -->
+
+  <!-- <script>
+    //if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+    // var maxWidth = 767;
+    // if (window.innerWidth <= maxWidth) {
+
+    //   function openNav() {
+    //     document.getElementById("sidenav").style.width = "250px";
+    //     //document.getElementById("mainBlock").style.marginLeft = "250px";
+    //     // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    //   }
+
+    //   function closeNav() {
+    //     document.getElementById("sidenav").style.width = "0";
+    //     //document.getElementById("mainBlock").style.marginLeft= "0";
+    //     //document.body.style.backgroundColor = "white";
+    //   }
+    // }
+
+  </script> -->
+
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+
 </html>
